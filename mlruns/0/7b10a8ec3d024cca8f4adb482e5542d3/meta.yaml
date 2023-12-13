@@ -1,0 +1,15 @@
+artifact_uri: file:///c:/Users/saivi/End-to-End-Chest-Cancer-Classification-using_MLfLow_DVC/mlruns/0/7b10a8ec3d024cca8f4adb482e5542d3/artifacts
+end_time: 1702414617530
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 7b10a8ec3d024cca8f4adb482e5542d3
+run_name: crawling-hare-116
+run_uuid: 7b10a8ec3d024cca8f4adb482e5542d3
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1702414608696
+status: 3
+tags: []
+user_id: saivi
