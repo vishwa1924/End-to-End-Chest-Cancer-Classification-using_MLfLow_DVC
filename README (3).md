@@ -21,28 +21,27 @@
 
 - [Documentation](https://mlflow.org/docs/latest/index.html)
 
-- [MLflow tutorial](https://youtube.com/playlist?list=PLkz_y24mlSJZrqiZ4_cLUiP0CBN5wFmTb&si=zEp_C8zLHt1DzWKK)
-
+-
 ##### cmd
 - mlflow ui
 
 ### dagshub
 [dagshub](https://dagshub.com/)
 
-MLFLOW_TRACKING_URI=https://dagshub.com/entbappy/chest-Disease-Classification-MLflow-DVC.mlflow \
-MLFLOW_TRACKING_USERNAME=entbappy \
-MLFLOW_TRACKING_PASSWORD=6824692c47a4545eac5b10041d5c8edbcef0 \
+MLFLOW_TRACKING_URI=https://dagshub.com/saivishwa.gaddam/End-to-End-Chest-Cancer-Classification-using_MLfLow_DVC.mlflow\
+MLFLOW_TRACKING_USERNAME=saivishwa.gaddam \
+MLFLOW_TRACKING_PASSWORD=c42e07064b62f39d7b3a7d6418104507193f8007 \
 python script.py
 
 Run this to export as env variables:
 
 ```bash
 
-export MLFLOW_TRACKING_URI=https://dagshub.com/entbappy/chest-Disease-Classification-MLflow-DVC.mlflow
+export MLFLOW_TRACKING_URI=https://dagshub.com/saivishwa.gaddam/End-to-End-Chest-Cancer-Classification-using_MLfLow_DVC.mlflow
 
-export MLFLOW_TRACKING_USERNAME=entbappy 
+export MLFLOW_TRACKING_USERNAME=saivishwa.gaddam
 
-export MLFLOW_TRACKING_PASSWORD=6824692c47a369aa6f9353c5b10041d5c8edbcef0
+export MLFLOW_TRACKING_PASSWORD=c42e07064b62f39d7b3a7d6418104507193f8007
 
 ```
 
@@ -105,8 +104,7 @@ DVC
 
 	
 ## 3. Create ECR repo to store/save docker image
-    - Save the URI: 566373416292.dkr.ecr.us-east-1.amazonaws.com/chicken
-
+    
 	
 ## 4. Create EC2 machine (Ubuntu) 
 
@@ -141,7 +139,7 @@ DVC
 
     AWS_REGION = us-east-1
 
-    AWS_ECR_LOGIN_URI = demo>>  566373416292.dkr.ecr.ap-south-1.amazonaws.com
+    AWS_ECR_LOGIN_URI = 
 
     ECR_REPOSITORY_NAME = simple-app
 
